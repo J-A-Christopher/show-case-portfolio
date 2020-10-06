@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0 90px;
+}
+a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: #fff;
+    border-bottom: 2px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color 0.5s;
+}
+
+a:hover{
+    border-color: yellow;
+}
+
+.current{
+    border-bottom:solid 2px yellow;
+}
+
+.container nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.container{
+    position: relative;
+    background: url('./img/pexels-mike-100655.jpg') no-repeat center center/cover;
+    height: 100vh;
+}
+
+/* .container::before {
+    content: '';
+    top: 0;
+} */
+
+
+h3{
+    padding: 0 90px; 
+    margin-top: 30px;
+    color: #fff;
+}
+
+h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    font-size: 3.5rem;
+}
+
+h2{
+    position: absolute;
+    top: 65%;
+    margin-left: 80px;
+    color: #fff;
+}
+
+.txt-type> .txt{
+    border-right: 0.2rem solid #777;
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .6);
+    z-index: -1;
+    
+}
+
+.desc{
+    text-align: center;
+}
+
+h4{
+    padding: 30px 0;
+    font-size: 2rem;
+}
+
+.work{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-gap: 1rem;
+    padding: 2rem 8rem;
+}
+
+.work p{
+    line-height: 1.5rem;
+}
+
+.fas,.fab,.far,#icon,#icon2{
+    color: yellow;
+    text-align: center;
+    margin-left: 4rem;
+}
+
+.text{
+    margin-left: 4rem;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+
+.other .fas,.fab,.far{
+    color: black;
+}
+
+.other{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.other div{
+    padding: 2rem 3rem;
+}
+
+.other div:nth-child(odd) {
+    background: lightgray;
+}
+
+.other div:nth-child(even) {
+    background: darkgray;
+}
+
+.stuff{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 0;
+}
+
+h5{
+    font-size: 2rem;
+}
+
+.aldehyde .fas,.fab,.far{
+    color: black;
+}
+
+.aldehyde{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1rem;
+    padding: 2rem 8rem;
+}
+
+.aldehyde .fas{
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: white;
+    transition: all 1s ease-in-out;
+    text-align: center;
+}
+
+.aldehyde .fas:hover{
+    background-color: rgba(255, 255, 0, 0.932);
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+}
+
+.aldehyde .fas:hover p{
+    width: 80px;
+    height: 80px;
+}
+
+.aldehyde p{
+    line-height: 1.5rem;
+}
+
+footer{
+    height: 70px;
+    background-color: teal;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+footer a{
+    padding: 15px 0px;
+    border-bottom: none;
+    border-radius: 50px;
+}
+
+.fab{
+    margin-top: 10px;
+}
+
+

@@ -1,0 +1,148 @@
+.container{
+    height: 15vh;
+}
+
+
+.about div{
+    text-align: center;
+}
+
+.about div h5{
+    padding: 25px 0;
+}
+
+.about div h5 p{
+    padding: 10p;
+}
+
+.private{
+    display: grid;
+    grid-template-areas:
+    'img div div';
+    grid-gap: 1.2rem;
+    padding: 1rem 7rem;
+}
+
+img{
+    grid-area: img;
+}
+
+.proj{
+    grid-area: div;
+}
+
+.pc{
+    grid-area: div;
+}
+
+.private div{
+    padding: 10px 0;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.turn{
+    padding: 3.5rem 7rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+
+.finisher{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1.5rem;
+    text-align: center;
+
+}
+
+.omo{
+    padding: .2rem 0;
+}
+   
+
+.easy{
+    text-align: center;
+}
+
+
+.easy{
+    font-size: 1.5rem;
+    opacity: .6;
+}
+
+form{
+    display: grid;
+    grid-area: 
+    'Name  Email Adress'
+    'Subject Phone Number'
+    'Enter Message  Enter Message Enter Message'
+    ;
+    grid-gap: 1.5rem;
+    padding: 4rem 0;
+    padding: 0 10rem;
+}
+
+input[type='text'] {
+    grid-area: Name;
+}
+
+input[type='email'] {
+    grid-area: Email Adress;
+}
+
+input[type='Subject'] {
+    grid-area: Subject;
+}
+
+input[type='Phone Number'] {
+    grid-area: Phone Number;
+}
+
+input[type='textarea'] {
+    grid-area: Enter Message;
+}
+
+input{
+    padding: 10px ;
+}
+
+textarea{
+    padding: 10px;
+}
+
+button{
+    margin-left: 20rem;
+    padding: 5px 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input:focus,textarea:focus{
+    outline-color: lightgreen;
+}
+
+.icona{
+    /* height: 4rem; */
+    background-color:  black;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5rem 7rem;
+    /* margin:  0 60px; */
+    text-align: center;
+}
+
+
+.last{
+    padding: 4rem 0;
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.icona div .fas{
+    color: white;
+    padding-bottom: 2rem;
+}
+

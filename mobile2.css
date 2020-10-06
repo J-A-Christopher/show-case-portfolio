@@ -1,0 +1,46 @@
+@media (max-width:600px) {
+    .container nav .link{
+        display:flex ;
+        flex-direction: column;
+        padding: 1.0rem 2rem;
+    }
+
+    .container nav .link a{
+        border: none;
+        padding: 10px 0;
+    }
+
+    .always p{
+        font-size: 25px;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+
+   .items{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .item-image{
+       width:250px;
+   }
+
+   footer{
+    display: flex;
+    height:150px;
+    margin-top: 20px;
+}
+
+footer div a .fab{
+    display: none;
+}
+
+footer p{
+    /* margin-top: 5px; */
+    display:inline;
+}
+
+  
+}

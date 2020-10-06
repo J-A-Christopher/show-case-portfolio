@@ -1,0 +1,114 @@
+@media(max-width:600px) {
+
+    body{
+        height: 100vh;
+    }
+
+    .container nav .link{
+        display:flex ;
+        flex-direction: column;
+        padding: 1.0rem 2rem;
+    }
+  
+    .container nav .link a{
+        border: none;
+        padding: 10px 0;
+    }
+    .container h2{
+        display: none;
+    }
+  
+    .container h1,h2{
+        font-size: 1.5rem;
+    }
+
+    form{
+        /* grid-template-areas: 
+    'Name '
+    'Email Adress'
+    'Subject'
+    'Phone Number'
+    'Enter Message  Enter Message ' */
+        /* ; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    button{
+       padding: 5px 20px;
+       margin-left: 150px;
+       border-radius: 20px;
+    }
+
+    
+
+    input{
+        width: 280px;
+    }
+    
+    textarea{
+        width: 280px;
+    }
+
+    /* input[type='text'] {
+        grid-area: Name;
+    }
+    
+    input[type='email'] {
+        grid-area: Email Adress;
+    }
+    
+    input[type='Subject'] {
+        grid-area: Subject;
+    }
+    
+    input[type='Phone Number'] {
+        grid-area: Phone Number;
+    }
+    
+    input[type='textarea'] {
+        grid-area: Enter Message;
+    }
+    
+    input{
+        padding: 10px ;
+    }
+    
+    textarea{
+        padding: 10px;
+    } */
+    .contact h6 {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+    .icona{
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 20px 0;
+    }
+
+    .icona div{
+        padding: 10px 0;
+    }
+
+    .last p{
+        font-size: 20px;
+    }
+
+    footer{
+        display: flex;
+        height:150px;
+    }
+  
+    footer div a .fab{
+        display: none;
+    }
+  
+    footer p{
+        /* margin-top: 5px; */
+        display:inline;
+    }
+}
